@@ -1,0 +1,887 @@
+[
+    {
+        "question_number": null,
+        "question_type": null,
+        "question_text": null,
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": "1",
+        "question_type": null,
+        "question_text": null,
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": "2",
+        "question_type": "MultipleChoice",
+        "question_text": "Which AWS Cloud Adoption Framework (AWS CAF) capability belongs to the people perspective?",
+        "options": [
+            "A- Data architecture",
+            "B- Event management",
+            "C- Cloud fluency",
+            "D- Strategic partnership"
+        ],
+        "answer": "C",
+        "explanation": "Cloud fluency is a capability that belongs to the people perspective of the AWS Cloud Adoption\nFramework (AWS CAF). Cloud fluency is the ability of the workforce to understand the benefits,\nchallenges, and best practices of cloud computing, and to apply them to their roles and\nresponsibilities. Cloud fluency helps the organization to adopt a cloud mindset, culture, and skills,\nand to leverage the full potential of the cloud. Cloud fluency can be achieved through various\nmethods, such as training, certification, mentoring, coaching, and hands-on experience. Cloud\nfluency is one of the four capabilities of the people perspective, along with culture, organizational\nstructure, and leadership. The other three capabilities belong to different perspectives of the\nAWS CAF. Data architecture is a capability of the platform perspective, which helps you design\nand implement data solutions that meet your business and technical requirements. Event\nmanagement is a capability of the operations perspective, which helps you monitor and respond\nto events that affect the availability, performance, and security of your cloud resources. Strategic\npartnership is a capability of the business perspective, which helps you establish and maintain\nrelationships with external stakeholders, such as customers, partners, suppliers, and regulators,\nto create value and achieve your business goals.References:AWS Cloud Adoption Framework:\nPeople Perspective,AWS CAF - Cloud Adoption Framework - W3Schools\nQuestion 2"
+    },
+    {
+        "question_number": null,
+        "question_type": "MultipleChoice",
+        "question_text": null,
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": "3",
+        "question_type": null,
+        "question_text": null,
+        "options": [
+            "A- AWS Snowmobile",
+            "B- AWS Local Zones",
+            "C- AWS Outposts",
+            "D- AWS Fargate"
+        ],
+        "answer": "C",
+        "explanation": "AWS Outposts is a service that delivers AWS infrastructure and services to virtually any on-\npremises or edge location for a truly consistent hybrid experience. AWS Outposts allows you to\nextend and run native AWS services on premises, and is available in a variety of form factors,\nfrom 1U and 2U Outposts servers to 42U Outposts racks, and multiple rack deployments. With\nAWS Outposts, you can run some AWS services locally and connect to a broad range of services\navailable in the local AWS Region.Run applications and workloads on premises using familiar AWS\nservices, tools, and APIs2. AWS Outposts is the only AWS service that supports a hybrid\narchitecture that gives users the ability to extend AWS infrastructure, AWS services, APIs, and\ntools to data centers, co-location environments, or on-premises facilities.References:On-Premises\nInfrastructure - AWS Outposts Family\nQuestion 3"
+    },
+    {
+        "question_number": null,
+        "question_type": "MultipleChoice",
+        "question_text": "A company wants to receive a notification when a specific AWS cost threshold is reached.\nWhich AWS services or tools can the company use to meet this requirement? (Select TWO.)",
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": "4",
+        "question_type": null,
+        "question_text": null,
+        "options": [],
+        "answer": "B",
+        "explanation": "AWS Budgets and Amazon CloudWatch are two AWS services or tools that the company can use\nto receive a notification when a specific AWS cost threshold is reached. AWS Budgets allows\nusers to set custom budgets to track their costs and usage, and respond quickly to alerts\nreceived from email or Amazon Simple Notification Service (Amazon SNS) notifications if they\nexceed their threshold. Users can create cost budgets with fixed or variable target amounts, and\nconfigure their notifications for actual or forecasted spend. Users can also set up custom actions\nto run automatically or through an approval process when a budget target is exceeded. For\nexample, users could automatically apply a custom IAM policy that denies them the ability to\nprovision additional resources within an account. Amazon CloudWatch is a service that monitors\napplications, responds to performance changes, optimizes resource use, and provides insights\ninto operational health. Users can use CloudWatch to collect and track metrics, which are\nvariables they can measure for their resources and applications. Users can create alarms that\nwatch metrics and send notifications or automatically make changes to the resources they are\nmonitoring when a threshold is breached. Users can use CloudWatch to monitor their AWS costs\nand usage by creating billing alarms that send notifications when their estimated charges exceed\na specified threshold amount. Users can also use CloudWatch to monitor their Reserved Instance\n(RI) or Savings Plans utilization and coverage, and receive notifications when they fall below a\ncertain level.\nReferences:Cloud Cost And Usage Budgets - AWS Budgets,What is Amazon CloudWatch?,Creating\na billing alarm - Amazon CloudWatch\nQuestion 4"
+    },
+    {
+        "question_number": null,
+        "question_type": "MultipleChoice",
+        "question_text": null,
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": "5",
+        "question_type": null,
+        "question_text": null,
+        "options": [
+            "A- VPC endpoints",
+            "B- AWS Transit Gateway",
+            "C- Amazon Route 53",
+            "D- AWS Secrets Manager"
+        ],
+        "answer": "B",
+        "explanation": "AWS Transit Gateway is a network transit hub that you can use to interconnect your VPCs and on-\npremises networks through a central gateway. AWS Transit Gateway simplifies and scales the\nconnectivity between your on-premises networks and AWS, as you only need to create and\nmanage a single connection from the central gateway to each on-premises network, rather than\nindividual connections to each VPC.You can also use AWS Transit Gateway to connect to other\nAWS services, such as Amazon S3, Amazon DynamoDB, and AWS PrivateLink12.AWS Transit\nGateway supports thousands of VPCs per gateway, and enables you to peer Transit Gateways\nacross AWS Regions3.\nThe other options are not AWS services or features that can simplify and scale the connectivity\nbetween on-premises networks and hundreds of VPCs using AWS Direct Connect.VPC endpoints\nenable private connectivity between your VPCs and supported AWS services, but do not support\non-premises networks4.Amazon Route 53 is a DNS service that helps you route internet traffic to\nyour resources, but does not provide network connectivity5.AWS Secrets Manager is a service\nthat helps you securely store and manage secrets, such as database credentials and API keys,\nbut does not relate to network connectivity\nQuestion 5"
+    },
+    {
+        "question_number": null,
+        "question_type": "MultipleChoice",
+        "question_text": "Which AWS Cloud benefit is shown by an architecture's ability to withstand failures with minimal\ndowntime?",
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": "6",
+        "question_type": null,
+        "question_text": null,
+        "options": [],
+        "answer": "D",
+        "explanation": "Understanding High Availability: High availability (HA) refers to systems that are durable and\nlikely to operate continuously without failure for a long time. HA ensures that an architecture can\nwithstand failures with minimal downtime.\nImportance of High Availability:\nRedundancy: Systems are designed with redundancy to prevent single points of failure.\nFault Tolerance: Ensures that failures do not result in significant downtime, maintaining service\ncontinuity.\nAutomated Recovery: Utilizes automated recovery mechanisms to quickly restore services in the\nevent of a failure.\nAWS Services for High Availability:\nMulti-AZ Deployments: Services like RDS, DynamoDB, and others support Multi-AZ deployments\nfor fault tolerance.\nElastic Load Balancing: Distributes traffic across multiple instances or availability zones to ensure\nno single point of failure.\nAuto Scaling: Automatically adjusts the number of instances based on demand, ensuring\navailability even during traffic spikes.\nReferences:\nAWS Well-Architected Framework: Reliability\nQuestion 6"
+    },
+    {
+        "question_number": null,
+        "question_type": "MultipleChoice",
+        "question_text": null,
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": "7",
+        "question_type": null,
+        "question_text": null,
+        "options": [
+            "A- AWS Trusted Advisor",
+            "B- Amazon CloudWatch",
+            "C- Amazon GuardDuty",
+            "D- AWS Health Dashboard"
+        ],
+        "answer": "A",
+        "explanation": "AWS Trusted Advisor is a service that provides real-time guidance to help optimize AWS\nresources, improve security, and maximize performance. It includes a Security category that can\nidentify security group configurations that allow unrestricted access to specific ports.It offers\nrecommendations and alerts to help remediate misconfigurations and ensure proper security\npractices1.References:\nAmazon CLF-C02: Which AWS service monitor for misconfigured security groups allowing\nunrestricted access to specific ports - PUPUWEB\nQuestion 7"
+    },
+    {
+        "question_number": null,
+        "question_type": "MultipleChoice",
+        "question_text": "Which action is a security best practice for access to sensitive data that is stored in an Amazon\nS3 bucket?",
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": "8",
+        "question_type": null,
+        "question_text": null,
+        "options": [],
+        "answer": "B",
+        "explanation": "Understanding IAM Roles: IAM (Identity and Access Management) roles in AWS are designed to\ndelegate access permissions without sharing long-term security credentials. This means\napplications and services can use temporary security credentials, which enhances security.\nWhy IAM Roles are Best Practice:\nLeast Privilege Principle: By using IAM roles, you can ensure that applications only have the\nminimum permissions they need to function, reducing the risk of unauthorized access.\nTemporary Credentials: Roles provide temporary security credentials, which reduce the risk if\nthey are compromised compared to long-term access keys.\nAutomated Rotation: Temporary credentials automatically expire and are rotated, which means\nyou don't have to manage the rotation manually.\nHow to Implement IAM Roles:\nCreate an IAM Role: In the AWS Management Console, navigate to IAM, and create a new role.\nChoose the type of trusted entity (e.g., EC2, Lambda).\nAttach Policies: Attach the necessary policies to the role that define the permissions for accessing\nthe S3 bucket.\nAssign Role to Service: Attach the IAM role to your EC2 instances, Lambda functions, or other\nAWS services that need to access the S3 bucket.\nUse AWS SDKs: When accessing S3 from your application, use the AWS SDKs to automatically\nassume the IAM role and obtain temporary credentials.\nReferences:\nAWS Identity and Access Management (IAM)\nIAM Roles\nQuestion 8"
+    },
+    {
+        "question_number": null,
+        "question_type": "MultipleChoice",
+        "question_text": null,
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": "9",
+        "question_type": null,
+        "question_text": null,
+        "options": [
+            "A- Performance efficiency",
+            "B- Sustainability",
+            "C- Reliability",
+            "D- Security"
+        ],
+        "answer": "C",
+        "explanation": "Understanding the Reliability Pillar: The Reliability pillar of the AWS Well-Architected Framework\nfocuses on the ability of a system to recover from infrastructure or service disruptions,\ndynamically acquire computing resources to meet demand, and mitigate disruptions such as\nmisconfigurations or transient network issues.\nKey Concepts of Reliability:\nFoundations: Ensure a solid foundation on which to build, including AWS account management,\nlimits, and networking.\nChange Management: Manage changes in automation to ensure systems remain reliable during\nmodifications.\nFailure Management: Design systems to detect failures and automatically recover from them.\nHow to Align with Reliability Pillar:\nImplement Multi-AZ Deployments: Deploy applications across multiple Availability Zones to\nensure fault tolerance.\nUse Auto Scaling: Automatically adjust resources to maintain system performance during demand\nfluctuations.\nMonitor and Respond: Implement monitoring and alerting mechanisms using services like\nCloudWatch to detect and respond to issues proactively.\nReferences:\nAWS Well-Architected Framework: Reliability Pillar\nQuestion 9"
+    },
+    {
+        "question_number": null,
+        "question_type": "MultipleChoice",
+        "question_text": null,
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": null,
+        "question_type": null,
+        "question_text": null,
+        "options": [
+            "A- Hard code an IAM user's secret key and access key directly in the application, and upload the",
+            "file.",
+            "B- Store the IAM user's secret key and access key in a text file on the EC2 instance, read the",
+            "keys, then upload the file.",
+            "C- Have the EC2 instance assume a role to obtain the privileges to upload the file.",
+            "D- Modify the S3 bucket policy so that any service can upload to it at any time."
+        ],
+        "answer": "C",
+        "explanation": "According to security best practices, the best way to give an Amazon EC2 instance access to an\nAmazon S3 bucket is to have the EC2 instance assume a role to obtain the privileges to upload\nthe file. A role is an AWS Identity and Access Management (IAM) entity that defines a set of\npermissions for making AWS service requests. You can use roles to delegate access to users,\napplications, or services that don't normally have access to your AWS resources. For example,\nyou can create a role that allows EC2 instances to access S3 buckets, and then attach the role to\nthe EC2 instance. This way, the EC2 instance can assume the role and obtain temporary security\ncredentials to access the S3 bucket. This method is more secure and scalable than storing or\nhardcoding IAM user credentials on the EC2 instance, as it avoids the risk of exposing or\ncompromising the credentials. It also allows you to manage the permissions centrally and\ndynamically, and to audit the access using AWS CloudTrail.For more information on how to create\nand use roles for EC2 instances, see Using an IAM role to grant permissions to applications\nrunning on Amazon EC2 instances1\nThe other options are not recommended for security reasons. Hardcoding or storing IAM user\ncredentials on the EC2 instance is a bad practice, as it exposes the credentials to potential\nattackers or unauthorized users who can access the instance or the application code. It also\nmakes it difficult to rotate or revoke the credentials, and to track the usage of the credentials.\nModifying the S3 bucket policy to allow any service to upload to it at any time is also a bad\npractice, as it opens the bucket to potential data breaches, data loss, or data corruption. It also\nviolates the principle of least privilege, which states that you should grant only the minimum\npermissions necessary for a task.\nReferences:Using an IAM role to grant permissions to applications running on Amazon EC2\ninstances"
+    },
+    {
+        "question_number": null,
+        "question_type": null,
+        "question_text": null,
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": null,
+        "question_type": null,
+        "question_text": null,
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": null,
+        "question_type": null,
+        "question_text": null,
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": "1",
+        "question_type": null,
+        "question_text": null,
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": "2",
+        "question_type": "MultipleChoice",
+        "question_text": "A company wants to integrate its online shopping website with social media login credentials.\nWhich AWS service can the company use to make this integration?",
+        "options": [
+            "A- AWS Directory Service",
+            "B- AWS Identity and Access Management (IAM)",
+            "C- Amazon Cognito",
+            "D- AWS IAM Identity Center (AWS Single Sign-On)"
+        ],
+        "answer": "C",
+        "explanation": "Amazon Cognito is a service that enables you to add user sign-up and sign-in features to your\nweb and mobile applications. Amazon Cognito also supports social and enterprise identity\nfederation, which means you can allow your users to sign in with their existing credentials from\nidentity providers such as Google, Facebook, Apple, and Amazon. Amazon Cognito integrates\nwith OpenID Connect (OIDC) and Security Assertion Markup Language (SAML) 2.0 protocols to\nfacilitate the authentication and authorization process. Amazon Cognito also provides advanced\nsecurity features, such as adaptive authentication, user verification, and multi-factor\nauthentication (MFA).References:Amazon Cognito,What is Amazon Cognito?\nQuestion 2"
+    },
+    {
+        "question_number": null,
+        "question_type": "MultipleChoice",
+        "question_text": "A company is migrating to the AWS Cloud and plans to run experimental workloads for 3 to 6\nmonths on AWS. Which pricing model will meet these requirements?",
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": "3",
+        "question_type": null,
+        "question_text": null,
+        "options": [],
+        "answer": "D",
+        "explanation": "On-Demand Instances are the most flexible and cost-effective pricing model for short-term,\nexperimental, or unpredictable workloads on AWS. On-Demand Instances let you pay only for the\nresources you use, without any long-term commitments or upfront fees. You can easily start and\nstop instances as needed, and scale up or down depending on your demand.\nSavings Plans, Reserved Instances, and Dedicated Hosts are all pricing models that require a\ncommitment for a certain amount of usage or capacity for a one- or three-year term. These\npricing models offer lower prices than On-Demand Instances, but they are not suitable for\nworkloads that only run for 3 to 6 months or have variable usage patterns. Savings Plans and\nReserved Instances also offer flexibility to change instance types, sizes, or regions within the\nsame family or pool, while Dedicated Hosts are physical servers that can only run specific\ninstance types.\nQuestion 3"
+    },
+    {
+        "question_number": null,
+        "question_type": "MultipleChoice",
+        "question_text": "A company wants to monitor for misconfigured security groups that are allowing unrestricted\naccess to specific ports. Which AWS service will meet this requirement?",
+        "options": [
+            "A- AWS Trusted Advisor",
+            "B- Amazon CloudWatch",
+            "C- Amazon GuardDuty",
+            "D- AWS Health Dashboard"
+        ],
+        "answer": "A",
+        "explanation": null
+    },
+    {
+        "question_number": "4",
+        "question_type": null,
+        "question_text": null,
+        "options": [],
+        "answer": null,
+        "explanation": "AWS Trusted Advisor is a service that provides real-time guidance to help optimize AWS\nresources, improve security, and maximize performance. It includes a Security category that can\nidentify security group configurations that allow unrestricted access to specific ports.It offers\nrecommendations and alerts to help remediate misconfigurations and ensure proper security\npractices1.References:\nAmazon CLF-C02: Which AWS service monitor for misconfigured security groups allowing\nunrestricted access to specific ports - PUPUWEB\nQuestion 4"
+    },
+    {
+        "question_number": null,
+        "question_type": "MultipleChoice",
+        "question_text": "A company wants to query its server logs to gain insights about its customers' experiences.\nWhich AWS service will store this data MOST cost-effectively?",
+        "options": [
+            "A- Amazon Aurora",
+            "B- Amazon Elastic File System (Amazon EFS)",
+            "C- Amazon Elastic Block Store (Amazon EBS)",
+            "D- Amazon S3"
+        ],
+        "answer": "D",
+        "explanation": "Amazon S3 is an AWS service that provides scalable, durable, and cost-effective object storage in\nthe cloud. Amazon S3 can store any amount and type of data, such as server logs, and offers\nvarious storage classes with different performance and pricing characteristics. Amazon S3 is the\nmost cost-effective option for storing server logs, as it offers low-cost storage classes, such as S3\nStandard-Infrequent Access (S3 Standard-IA) and S3 Intelligent-Tiering, that are suitable for\ninfrequently accessed or changing access patterns data. Amazon S3 also integrates with other\nAWS services, such as Amazon Athena and Amazon OpenSearch Service, that can query the\nserver logs directly from S3 without requiring any additional data loading or"
+    },
+    {
+        "question_number": "5",
+        "question_type": null,
+        "question_text": null,
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": "6",
+        "question_type": "MultipleChoice",
+        "question_text": "A company is storing sensitive customer data in an Amazon S3 bucket. The company wants to\nprotect the data from accidental deletion or overwriting.\nWhich S3 feature should the company use to meet these requirements?",
+        "options": [
+            "A- S3 Lifecycle rules",
+            "B- S3 Versioning",
+            "C- S3 bucket policies",
+            "D- S3 server-side encryption"
+        ],
+        "answer": "B",
+        "explanation": "S3 Versioning is a feature that allows you to keep multiple versions of an object in the same\nbucket. You can use S3 Versioning to protect your data from accidental deletion or overwriting by\nenabling it on a bucket or a specific object. S3 Versioning also allows you to restore previous\nversions of an object if needed. S3 Lifecycle rules are used to automate the transition of objects\nbetween storage classes or to expire objects after a certain period of time. S3 bucket policies are\nused to control access to the objects in a bucket. S3 server-side encryption is used to encrypt the\ndata at rest in S3.References:S3 Versioning,S3 Lifecycle rules,S3 bucket policies,S3 server-side\nencryption\nQuestion 6"
+    },
+    {
+        "question_number": null,
+        "question_type": "MultipleChoice",
+        "question_text": null,
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": null,
+        "question_type": null,
+        "question_text": null,
+        "options": [
+            "A- Amazon RDS",
+            "B- Amazon Elastic File System (Amazon EFS)",
+            "C- Amazon S3",
+            "D- Amazon DynamoDB"
+        ],
+        "answer": "C",
+        "explanation": "Amazon S3 is the AWS service that offers object storage. Object storage is a technology that\nstores and manages data in an unstructured format called objects. Each object consists of the\ndata, metadata, and a unique identifier.Object storage is ideal for storing large amounts of\nunstructured data, such as photos, videos, email, web pages, sensor data, and audio\nfiles1.Amazon S3 provides industry-leading scalability, data availability, security, and\nperformance for object storage2.\nAmazon RDS is the AWS service that offers relational database storage. Relational database\nstorage is a technology that stores and manages data in a structured format called tables. Each\ntable consists of rows and columns that define the attributes and values of the dat\na.Relational database storage is ideal for storing structured or semi-structured data, such as\ncustomer records, inventory, transactions, and analytics3.\nAmazon Elastic File System (Amazon EFS) is the AWS service that offers file storage. File storage\nis a technology that stores and manages data in a hierarchical format called files and folders.\nEach file consists of the data and metadata, and each folder consists of files or subfolders.File\nstorage is ideal for storing shared data that can be accessed by multiple users or applications,\nsuch as home directories, content repositories, media libraries, and configuration files4.\nAmazon DynamoDB is the AWS service that offers NoSQL database storage. NoSQL database\nstorage is a technology that stores and manages data in a flexible format called documents or\nkey-value pairs. Each document or key-value pair consists of the data and metadata, and can\nhave different attributes and values depending on the schema. NoSQL database storage is ideal\nfor storing dynamic or unstructured data that requires high performance, scalability, and\navailability, such as web applications, social media, gaming, and IoT."
+    },
+    {
+        "question_number": null,
+        "question_type": null,
+        "question_text": null,
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": null,
+        "question_type": null,
+        "question_text": null,
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": "1",
+        "question_type": null,
+        "question_text": null,
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": null,
+        "question_type": "MultipleChoice",
+        "question_text": "A company stores data in an Amazon S3 bucket.\nWhich task is the responsibility of AWS?",
+        "options": [
+            "A- Configure an S3 Lifecycle policy.",
+            "B- Activate S3 Versioning.",
+            "C- Configure S3 bucket policies.",
+            "D- Protect the infrastructure that supports S3 storage."
+        ],
+        "answer": "D",
+        "explanation": "According to the AWS Shared Responsibility Model, AWS is responsible for protecting the\ninfrastructure that runs all of the services offered in the AWS Cloud, including Amazon S3. This\ninfrastructure includes hardware, software, networking, and facilities that run AWS services.\nA . Configure an S3 Lifecycle policy: Incorrect, as configuring S3 Lifecycle policies to manage\nobject lifecycle (e.g., transitioning objects to different storage classes or deleting them after a\ncertain period) is the customer's responsibility.\nB . Activate S3 Versioning: Incorrect, as enabling S3 Versioning is a customer responsibility for\nmanaging data protection.\nC . Configure S3 bucket policies: Incorrect, as setting and managing S3 bucket policies to control\naccess is the customer's responsibility.\nAWS Cloud References:\nAWS Shared Responsibility Model\nAmazon S3"
+    },
+    {
+        "question_number": "2",
+        "question_type": null,
+        "question_text": null,
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": null,
+        "question_type": "MultipleChoice",
+        "question_text": "Which Amazon S3 storage class is MOST cost-effective for unknown access patterns?",
+        "options": [
+            "A- S3 Standard",
+            "B- S3 Standard-Infrequent Access (S3 Standard-IA)",
+            "C- S3 One Zone-Infrequent Access (S3 One Zone-IA)",
+            "D- S3 Intelligent-Tiering"
+        ],
+        "answer": "D",
+        "explanation": "Understanding S3 Intelligent-Tiering: S3 Intelligent-Tiering is designed to optimize costs by\nautomatically moving data to the most cost-effective access tier based on changing access\npatterns. It is ideal for data with unknown or unpredictable access patterns.\nWhy S3 Intelligent-Tiering is Cost-Effective:\nAutomatic Tiering: Moves data between two access tiers (frequent and infrequent access) based\non changing access patterns, optimizing storage costs without performance impact.\nNo Retrieval Fees: Unlike other storage classes, there are no retrieval fees in Intelligent-Tiering,\nmaking it cost-effective for data with unpredictable access patterns.\nMonitoring and Automation: Automatically monitors access patterns and transitions data,\nreducing the need for manual intervention.\nWhen to Use S3 Intelligent-Tiering:\nUnpredictable Access Patterns: Ideal for datasets where the access frequency cannot be\ndetermined or changes frequently.\nCost Optimization: For organizations looking to minimize storage costs without sacrificing\nperformance or requiring manual intervention to move data between tiers.\nReferences:\nAmazon S3 Intelligent-Tiering"
+    },
+    {
+        "question_number": "3",
+        "question_type": null,
+        "question_text": null,
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": "4",
+        "question_type": "MultipleChoice",
+        "question_text": "A developer needs to maintain a development environment infrastructure and a production\nenvironment infrastructure in a repeatable fashion Which AWS service should the developer use\nto meet these requirements?",
+        "options": [
+            "A- AWS Ground Station",
+            "B- AWS Shield",
+            "C- AWS loT Device Defender",
+            "D- AWS CloudFormation"
+        ],
+        "answer": "D",
+        "explanation": "AWS CloudFormation is a service that allows developers to model and provision their AWS\ninfrastructure in a repeatable and declarative way, using code and templates. AWS\nCloudFormation enables developers to define the resources they need for their development and\nproduction environments, such as compute, storage, network, and application services, and\nautomate their creation and configuration.AWS CloudFormation also provides features such as\nchange sets, nested stacks, and rollback triggers to help developers manage and update their\ninfrastructure safely and efficiently12.References:\nAWS CloudFormation\nWhat is AWS CloudFormation?\nQuestion 4"
+    },
+    {
+        "question_number": null,
+        "question_type": "MultipleChoice",
+        "question_text": null,
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": null,
+        "question_type": null,
+        "question_text": null,
+        "options": [
+            "A- Amazon CloudFront",
+            "B- Availability Zone",
+            "C- VPC",
+            "D- AWS Outposts"
+        ],
+        "answer": "B",
+        "explanation": "Understanding Availability Zones (AZs): An Availability Zone is a distinct location within an AWS\nregion that is engineered to be isolated from failures in other AZs.\nCharacteristics of Availability Zones:\nData Centers: Each AZ consists of one or more discrete data centers with redundant power,\nnetworking, and connectivity.\nHigh Availability: AZs are designed for high availability, providing low-latency network\nconnections to other zones in the same region.\nFault Isolation: They provide fault isolation and are used to deploy applications and services to\nensure high availability and reliability.\nUse Cases for Availability Zones:\nMulti-AZ Deployments: For services like RDS, deploying in multiple AZs ensures fault tolerance.\nDisaster Recovery: Setting up resources in multiple AZs helps in quick recovery from failures.\nLoad Balancing: Distributing traffic across AZs using Elastic Load Balancing ensures optimal\nperformance and availability.\nReferences:\nAWS Global Infrastructure\nUnderstanding AWS Regions and Availability Zones"
+    },
+    {
+        "question_number": "5",
+        "question_type": null,
+        "question_text": null,
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": null,
+        "question_type": "MultipleChoice",
+        "question_text": "Which AWS Cloud design principle is a company using when the company implements AWS\nCloudTrail?",
+        "options": [
+            "A- Activate traceability.",
+            "B- Use serverless compute architectures.",
+            "C- Perform operations as code.",
+            "D- Go global in minutes."
+        ],
+        "answer": "A",
+        "explanation": "By implementing AWS CloudTrail, a company is adhering to the AWS Cloud design principle of\nactivating traceability. AWS CloudTrail provides detailed logs of all API calls made in an AWS\naccount, which helps monitor, troubleshoot, and detect unusual activity, thereby improving\nsecurity and compliance. This supports the principle of 'activating traceability' by enabling\ncontinuous monitoring and auditing of all actions and changes within the AWS environment.\nB . Use serverless compute architectures: Incorrect, as this principle encourages the use of\nmanaged services that handle infrastructure, such as AWS Lambda, and is not directly related to\nCloudTrail.\nC . Perform operations as code: Incorrect, as this principle emphasizes the use of code and\nautomation for infrastructure management.\nD . Go global in minutes: Incorrect, as this principle relates to the global deployment of\napplications and services.\nAWS Cloud References:\nAWS Well-Architected Framework\nAWS CloudTrail"
+    },
+    {
+        "question_number": "6",
+        "question_type": null,
+        "question_text": null,
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": null,
+        "question_type": "MultipleChoice",
+        "question_text": "Which AWS Cloud benefit is shown by an architecture's ability to withstand failures with minimal\ndowntime?",
+        "options": [
+            "A- Agility",
+            "B- Elasticity",
+            "C- Scalability",
+            "D- High availability"
+        ],
+        "answer": "D",
+        "explanation": "Understanding High Availability: High availability (HA) refers to systems that are durable and\nlikely to operate continuously without failure for a long time. HA ensures that an architecture can\nwithstand failures with minimal downtime.\nImportance of High Availability:\nRedundancy: Systems are designed with redundancy to prevent single points of failure.\nFault Tolerance: Ensures that failures do not result in significant downtime, maintaining service\ncontinuity.\nAutomated Recovery: Utilizes automated recovery mechanisms to quickly restore services in the\nevent of a failure.\nAWS Services for High Availability:\nMulti-AZ Deployments: Services like RDS, DynamoDB, and others support Multi-AZ deployments\nfor fault tolerance.\nElastic Load Balancing: Distributes traffic across multiple instances or availability zones to ensure\nno single point of failure.\nAuto Scaling: Automatically adjusts the number of instances based on demand, ensuring\navailability even during traffic spikes.\nReferences:"
+    },
+    {
+        "question_number": "7",
+        "question_type": null,
+        "question_text": null,
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": null,
+        "question_type": "MultipleChoice",
+        "question_text": "Which AWS service or tool helps users visualize, understand, and manage spending and usage\nover time?",
+        "options": [
+            "A- AWS Organizations",
+            "B- AWS Pricing Calculator",
+            "C- AWS Cost Explorer",
+            "D- AWS Service Catalog"
+        ],
+        "answer": "C",
+        "explanation": "AWS Cost Explorer is the AWS service or tool that helps users visualize, understand, and manage\nspending and usage over time. AWS Cost Explorer is a web-based interface that allows users to\naccess interactive graphs and tables that display their AWS costs and usage data. Users can\ncreate custom reports that analyze cost and usage data by various dimensions, such as service,\nregion, account, tag, and more. Users can also view historical data for up to the last 12 months,\nforecast future costs for up to the next 12 months, and get recommendations for cost\noptimization. AWS Cost Explorer also provides preconfigured views that show common cost and\nusage scenarios, such as monthly spend by service, daily spend by linked account, and Reserved\nInstance utilization. Users can use AWS Cost Explorer to monitor their AWS spending and usage\ntrends, identify cost drivers and anomalies, and optimize their resource allocation and budget\nplanning.References:Cloud Cost Analysis - AWS Cost Explorer - AWS,Analyzing your costs with\nAWS Cost Explorer"
+    },
+    {
+        "question_number": null,
+        "question_type": null,
+        "question_text": null,
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": null,
+        "question_type": null,
+        "question_text": null,
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": "1",
+        "question_type": null,
+        "question_text": null,
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": null,
+        "question_type": "MultipleChoice",
+        "question_text": "A company wants to receive a notification when a specific AWS cost threshold is reached.\nWhich AWS services or tools can the company use to meet this requirement? (Select TWO.)",
+        "options": [
+            "A- Amazon Simple Queue Service (Amazon SQS)",
+            "B- AWS Budgets",
+            "C- Cost Explorer",
+            "D- Amazon CloudWatch",
+            "E- AWS Cost and Usage Report"
+        ],
+        "answer": "B",
+        "explanation": "AWS Budgets and Amazon CloudWatch are two AWS services or tools that the company can use\nto receive a notification when a specific AWS cost threshold is reached. AWS Budgets allows\nusers to set custom budgets to track their costs and usage, and respond quickly to alerts\nreceived from email or Amazon Simple Notification Service (Amazon SNS) notifications if they\nexceed their threshold. Users can create cost budgets with fixed or variable target amounts, and\nconfigure their notifications for actual or forecasted spend. Users can also set up custom actions\nto run automatically or through an approval process when a budget target is exceeded. For\nexample, users could automatically apply a custom IAM policy that denies them the ability to\nprovision additional resources within an account. Amazon CloudWatch is a service that monitors\napplications, responds to performance changes, optimizes resource use, and provides insights\ninto operational health. Users can use CloudWatch to collect and track metrics, which are\nvariables they can measure for their resources and applications. Users can create alarms that\nwatch metrics and send notifications or automatically make changes to the resources they are\nmonitoring when a threshold is breached. Users can use CloudWatch to monitor their AWS costs\nand usage by creating billing alarms that send notifications when their estimated charges exceed\na specified threshold amount. Users can also use CloudWatch to monitor their Reserved Instance\n(RI) or Savings Plans utilization and coverage, and receive notifications when they fall below a\ncertain level.\nReferences:Cloud Cost And Usage Budgets - AWS Budgets,What is Amazon CloudWatch?,Creating\na billing alarm - Amazon CloudWatch"
+    },
+    {
+        "question_number": "2",
+        "question_type": null,
+        "question_text": null,
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": "3",
+        "question_type": "MultipleChoice",
+        "question_text": "Which cloud concept is demonstrated by using AWS Compute Optimizer?",
+        "options": [
+            "A- Security validation",
+            "B- Rightsizing",
+            "C- Elasticity",
+            "D- Global reach"
+        ],
+        "answer": "B",
+        "explanation": "Rightsizing is the cloud concept that is demonstrated by using AWS Compute Optimizer.\nRightsizing is the process of adjusting the type and size of your cloud resources to match the\noptimal performance and cost for your workloads. AWS Compute Optimizer is a service that\nanalyzes the configuration and utilization metrics of your AWS resources, such as Amazon EC2\ninstances, Amazon EBS volumes, AWS Lambda functions, and Amazon ECS services on AWS\nFargate. It reports whether your resources are optimal, and generates optimization\nrecommendations to reduce the cost and improve the performance of your workloads. AWS\nCompute Optimizer uses machine learning to analyze your historical utilization data and compare\nit with the most cost-effective AWS alternatives. You can use the recommendations to evaluate\nthe trade-offs between cost and performance, and decide when to move or resize your resources\nto achieve the best results.References:Workload Rightsizing - AWS Compute Optimizer -\nAWS,What is AWS Compute Optimizer? - AWS Compute Optimizer\nQuestion 3"
+    },
+    {
+        "question_number": null,
+        "question_type": "MultipleChoice",
+        "question_text": null,
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": "4",
+        "question_type": null,
+        "question_text": null,
+        "options": [
+            "A- Amazon EC2",
+            "B- Amazon VPC",
+            "C- Amazon Route 53",
+            "D- Amazon RDS"
+        ],
+        "answer": "C",
+        "explanation": "Amazon Route 53 is a highly available and scalable Domain Name System (DNS) web service that\ncan route internet traffic to the company's ecommerce platform1.Route 53 can also register\ndomain names, check the health of resources, and provide global DNS features2.Route 53 can\nconnect users to the platform by translating human-readable names like www.example.com into\nthe numeric IP addresses that computers use to communicate with each other2.References:1:\nAmazon Route 53 | DNS Service | AWS;2: What is Amazon Route 53? - Amazon Route 53\nQuestion 4"
+    },
+    {
+        "question_number": null,
+        "question_type": "MultipleChoice",
+        "question_text": "A company wants to set up its workloads to perform their intended functions and recover quickly\nfrom failure. Which pillar of the AWS Well-Architected Framework aligns with these goals?",
+        "options": [
+            "A- Performance efficiency",
+            "B- Sustainability",
+            "C- Reliability",
+            "D- Security"
+        ],
+        "answer": "C",
+        "explanation": null
+    },
+    {
+        "question_number": "5",
+        "question_type": null,
+        "question_text": null,
+        "options": [],
+        "answer": null,
+        "explanation": "Understanding the Reliability Pillar: The Reliability pillar of the AWS Well-Architected Framework\nfocuses on the ability of a system to recover from infrastructure or service disruptions,\ndynamically acquire computing resources to meet demand, and mitigate disruptions such as\nmisconfigurations or transient network issues.\nKey Concepts of Reliability:\nFoundations: Ensure a solid foundation on which to build, including AWS account management,\nlimits, and networking.\nChange Management: Manage changes in automation to ensure systems remain reliable during\nmodifications.\nFailure Management: Design systems to detect failures and automatically recover from them.\nHow to Align with Reliability Pillar:\nImplement Multi-AZ Deployments: Deploy applications across multiple Availability Zones to\nensure fault tolerance.\nUse Auto Scaling: Automatically adjust resources to maintain system performance during demand\nfluctuations.\nMonitor and Respond: Implement monitoring and alerting mechanisms using services like\nCloudWatch to detect and respond to issues proactively.\nReferences:\nAWS Well-Architected Framework: Reliability Pillar\nQuestion 5"
+    },
+    {
+        "question_number": null,
+        "question_type": "MultipleChoice",
+        "question_text": "Which maintenance task is the customer's responsibility, according to the AWS shared\nresponsibility model?",
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": "6",
+        "question_type": null,
+        "question_text": null,
+        "options": [],
+        "answer": "D",
+        "explanation": "According to the AWS shared responsibility model, customers are responsible for managing their\ndata, applications, operating systems, security groups, and other aspects of their AWS\nenvironment. This includes installing updates and security patches of the guest operating system\nand any application software or utilities installed by the customer on the instances. AWS is\nresponsible for protecting the infrastructure that runs all of the services offered in the AWS Cloud,\nsuch as data centers, hardware, software, networking, and facilities. This includes the physical\nconnectivity among Availability Zones, the network switch maintenance, and the hardware\nupdates and firmware patches. Therefore, option D is the correct answer, and options A, B, and C\nare AWS responsibilities, not customer responsibilities.References: : AWS Well-Architected\nFramework - Elasticity; : Reactive Systems on AWS - Elastic\nQuestion 6"
+    },
+    {
+        "question_number": null,
+        "question_type": "MultipleChoice",
+        "question_text": "To assist companies with Payment Card Industry Data Security Standard (PCI DSS) compliance in\nthe cloud. AWS provides:",
+        "options": [
+            "A- physical inspections of data centers by appointment.",
+            "B- required PCI compliance certifications for any application running on AWS.",
+            "C- an AWS Attestation of Compliance (AOC) report for specific AWS services.",
+            "D- professional PCI compliance services."
+        ],
+        "answer": "C",
+        "explanation": "AWS provides an Attestation of Compliance (AOC) report for specific AWS services to assist\ncompanies in achieving Payment Card Industry Data Security Standard (PCI DSS) compliance in"
+    },
+    {
+        "question_number": "7",
+        "question_type": null,
+        "question_text": null,
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": null,
+        "question_type": "MultipleChoice",
+        "question_text": "Which of the following is a fully managed MySQL-compatible database?",
+        "options": [
+            "A- Amazon S3",
+            "B- Amazon DynamoDB",
+            "C- Amazon Redshift",
+            "D- Amazon Aurora"
+        ],
+        "answer": "D",
+        "explanation": "Amazon Aurora is a fully managed MySQL-compatible database that combines the performance\nand availability of traditional enterprise databases with the simplicity and cost-effectiveness of\nopen-source databases. Amazon Aurora is part of the Amazon Relational Database Service\n(Amazon RDS) family, which means it inherits the benefits of a fully managed service, such as\nautomated backups, patches, scaling, monitoring, and security. Amazon Aurora also offers up to\nfive times the throughput of standard MySQL, as well as high availability, durability, and fault\ntolerance with up to 15 read replicas, cross-Region replication, and self-healing storage.Amazon\nAurora is compatible with the latest versions of MySQL, as well as PostgreSQL, and supports\nvarious features and integrations that enhance its functionality and usability123\nReferences:Amazon Aurora,Amazon RDS,AWS --- Amazon Aurora Overview"
+    },
+    {
+        "question_number": "8",
+        "question_type": null,
+        "question_text": null,
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": "9",
+        "question_type": "MultipleChoice",
+        "question_text": "A company has a MySQL database running on a single Amazon EC2 instance. The company now\nrequires higher availability in the event of an outage.\nWhich set of tasks would meet this requirement?",
+        "options": [
+            "A- Add an Application Load Balancer in front of the EC2 instance.",
+            "B- Configure EC2 Auto Recovery to move the instance to another Availability Zone.",
+            "C- Migrate to Amazon RDS and enable Multi-AZ.",
+            "D- Enable termination protection for the EC2 instance to avoid outages."
+        ],
+        "answer": "C",
+        "explanation": "The set of tasks that would meet the requirement of having higher availability for a MySQL\ndatabase running on a single Amazon EC2 instance is to migrate to Amazon RDS and enable\nMulti-AZ. Amazon RDS is a fully managed relational database service that supports MySQL and\nother popular database engines. By enabling Multi-AZ, users can have a primary database in one\nAvailability Zone and a synchronous standby replica in another Availability Zone.In case of a\nplanned or unplanned outage of the primary database, Amazon RDS automatically fails over to\nthe standby replica with minimal disruption3. Adding an Application Load Balancer in front of the\nEC2 instance, configuring EC2 Auto Recovery to move the instance to another Availability Zone,\nor enabling termination protection for the EC2 instance would not provide higher availability for\nthe database, as they do not address the single point of failure or data replication issues.\nQuestion 9"
+    },
+    {
+        "question_number": null,
+        "question_type": "MultipleChoice",
+        "question_text": null,
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": "10",
+        "question_type": null,
+        "question_text": null,
+        "options": [
+            "A- Amazon CloudWatch",
+            "B- Amazon Inspector",
+            "C- AWS CloudTrail",
+            "D- AWS IAM"
+        ],
+        "answer": "C",
+        "explanation": "AWS CloudTrail is the service that can be used to meet these requirements. AWS CloudTrail is a\nservice that records AWS API calls for your account and delivers log files to you.The recorded\ninformation includes the identity of the API caller, the time of the API call, the source IP address of\nthe API caller, the request parameters, and the response elements returned by the AWS service1.\nYou can use CloudTrail to track the activity in your AWS accounts, such as who made an API call,\nwhen it was made, and what resources were affected.You can also use CloudTrail to monitor the\ncompliance, security, and governance of your AWS environment2. The other services are not\ndesigned to track the activity and API calls in your AWS accounts. Amazon CloudWatch is a\nservice that monitors and collects metrics, logs, and events from your AWS resources and\napplications.You can use CloudWatch to set alarms, visualize data, and automate actions based\non predefined thresholds or rules3. Amazon Inspector is a service that helps you improve the\nsecurity and compliance of your applications running on AWS.Inspector automatically assesses\napplications for exposure, vulnerabilities, and deviations from best practices4. AWS IAM is a\nservice that enables you to manage access to AWS services and resources securely. IAM allows\nyou to create and manage AWS users and groups, and use permissions to allow and deny their\naccess to AWS resources.References:AWS CloudTrail,AWS CloudTrail -- Capture AWS API\nActivity,Amazon CloudWatch,Amazon Inspector, [AWS IAM]\nQuestion 10"
+    },
+    {
+        "question_number": null,
+        "question_type": "MultipleChoice",
+        "question_text": "A company needs a graph database service that is scalable and highly available.\nWhich AWS service meets these requirements?",
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": "11",
+        "question_type": null,
+        "question_text": null,
+        "options": [],
+        "answer": "D",
+        "explanation": "The AWS service that meets the requirements of providing a graph database service that is\nscalable and highly available isAmazon Neptune. Amazon Neptune is a fast, reliable, and fully\nmanaged graph database service that supports property graph and RDF graph models. Amazon\nNeptune is designed to store billions of relationships and query the graph with milliseconds\nlatency.Amazon Neptune also offers high availability and durability by replicating six copies of\nthe data across three Availability Zones and continuously backing up the data to Amazon S35.\nAmazon Aurora, Amazon Redshift, and Amazon DynamoDB are other AWS services that provide\nrelational or non-relational database solutions, but they do not support graph database models.\nQuestion 11"
+    },
+    {
+        "question_number": null,
+        "question_type": "MultipleChoice",
+        "question_text": "Which AWS service or tool can be used to set up a firewall to control traffic going into and coming\nout of an Amazon VPC subnet?",
+        "options": [
+            "A- Security group",
+            "B- AWS WAF",
+            "C- AWS Firewall Manager",
+            "D- Network ACL"
+        ],
+        "answer": "D",
+        "explanation": null
+    },
+    {
+        "question_number": null,
+        "question_type": null,
+        "question_text": null,
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": null,
+        "question_type": null,
+        "question_text": null,
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": null,
+        "question_type": null,
+        "question_text": null,
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": "1",
+        "question_type": null,
+        "question_text": null,
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": null,
+        "question_type": "MultipleChoice",
+        "question_text": "A company stores data in an Amazon S3 bucket.\nWhich task is the responsibility of AWS?",
+        "options": [
+            "A- Configure an S3 Lifecycle policy.",
+            "B- Activate S3 Versioning.",
+            "C- Configure S3 bucket policies.",
+            "D- Protect the infrastructure that supports S3 storage."
+        ],
+        "answer": "D",
+        "explanation": "According to the AWS Shared Responsibility Model, AWS is responsible for protecting the\ninfrastructure that runs all of the services offered in the AWS Cloud, including Amazon S3. This\ninfrastructure includes hardware, software, networking, and facilities that run AWS services.\nA . Configure an S3 Lifecycle policy: Incorrect, as configuring S3 Lifecycle policies to manage\nobject lifecycle (e.g., transitioning objects to different storage classes or deleting them after a\ncertain period) is the customer's responsibility.\nB . Activate S3 Versioning: Incorrect, as enabling S3 Versioning is a customer responsibility for\nmanaging data protection.\nC . Configure S3 bucket policies: Incorrect, as setting and managing S3 bucket policies to control\naccess is the customer's responsibility.\nAWS Cloud References:\nAWS Shared Responsibility Model\nAmazon S3"
+    },
+    {
+        "question_number": "2",
+        "question_type": null,
+        "question_text": null,
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": null,
+        "question_type": "MultipleChoice",
+        "question_text": "Which Amazon S3 storage class is MOST cost-effective for unknown access patterns?",
+        "options": [
+            "A- S3 Standard",
+            "B- S3 Standard-Infrequent Access (S3 Standard-IA)",
+            "C- S3 One Zone-Infrequent Access (S3 One Zone-IA)",
+            "D- S3 Intelligent-Tiering"
+        ],
+        "answer": "D",
+        "explanation": "Understanding S3 Intelligent-Tiering: S3 Intelligent-Tiering is designed to optimize costs by\nautomatically moving data to the most cost-effective access tier based on changing access\npatterns. It is ideal for data with unknown or unpredictable access patterns.\nWhy S3 Intelligent-Tiering is Cost-Effective:\nAutomatic Tiering: Moves data between two access tiers (frequent and infrequent access) based\non changing access patterns, optimizing storage costs without performance impact.\nNo Retrieval Fees: Unlike other storage classes, there are no retrieval fees in Intelligent-Tiering,\nmaking it cost-effective for data with unpredictable access patterns.\nMonitoring and Automation: Automatically monitors access patterns and transitions data,\nreducing the need for manual intervention.\nWhen to Use S3 Intelligent-Tiering:\nUnpredictable Access Patterns: Ideal for datasets where the access frequency cannot be\ndetermined or changes frequently.\nCost Optimization: For organizations looking to minimize storage costs without sacrificing\nperformance or requiring manual intervention to move data between tiers.\nReferences:\nAmazon S3 Intelligent-Tiering"
+    },
+    {
+        "question_number": "3",
+        "question_type": null,
+        "question_text": null,
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": "4",
+        "question_type": "MultipleChoice",
+        "question_text": "A developer needs to maintain a development environment infrastructure and a production\nenvironment infrastructure in a repeatable fashion Which AWS service should the developer use\nto meet these requirements?",
+        "options": [
+            "A- AWS Ground Station",
+            "B- AWS Shield",
+            "C- AWS loT Device Defender",
+            "D- AWS CloudFormation"
+        ],
+        "answer": "D",
+        "explanation": "AWS CloudFormation is a service that allows developers to model and provision their AWS\ninfrastructure in a repeatable and declarative way, using code and templates. AWS\nCloudFormation enables developers to define the resources they need for their development and\nproduction environments, such as compute, storage, network, and application services, and\nautomate their creation and configuration.AWS CloudFormation also provides features such as\nchange sets, nested stacks, and rollback triggers to help developers manage and update their\ninfrastructure safely and efficiently12.References:\nAWS CloudFormation\nWhat is AWS CloudFormation?\nQuestion 4"
+    },
+    {
+        "question_number": null,
+        "question_type": "MultipleChoice",
+        "question_text": null,
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": null,
+        "question_type": null,
+        "question_text": null,
+        "options": [
+            "A- Amazon CloudFront",
+            "B- Availability Zone",
+            "C- VPC",
+            "D- AWS Outposts"
+        ],
+        "answer": "B",
+        "explanation": "Understanding Availability Zones (AZs): An Availability Zone is a distinct location within an AWS\nregion that is engineered to be isolated from failures in other AZs.\nCharacteristics of Availability Zones:\nData Centers: Each AZ consists of one or more discrete data centers with redundant power,\nnetworking, and connectivity.\nHigh Availability: AZs are designed for high availability, providing low-latency network\nconnections to other zones in the same region.\nFault Isolation: They provide fault isolation and are used to deploy applications and services to\nensure high availability and reliability.\nUse Cases for Availability Zones:\nMulti-AZ Deployments: For services like RDS, deploying in multiple AZs ensures fault tolerance.\nDisaster Recovery: Setting up resources in multiple AZs helps in quick recovery from failures.\nLoad Balancing: Distributing traffic across AZs using Elastic Load Balancing ensures optimal\nperformance and availability.\nReferences:\nAWS Global Infrastructure\nUnderstanding AWS Regions and Availability Zones"
+    },
+    {
+        "question_number": "5",
+        "question_type": null,
+        "question_text": null,
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": null,
+        "question_type": "MultipleChoice",
+        "question_text": "Which AWS Cloud design principle is a company using when the company implements AWS\nCloudTrail?",
+        "options": [
+            "A- Activate traceability.",
+            "B- Use serverless compute architectures.",
+            "C- Perform operations as code.",
+            "D- Go global in minutes."
+        ],
+        "answer": "A",
+        "explanation": "By implementing AWS CloudTrail, a company is adhering to the AWS Cloud design principle of\nactivating traceability. AWS CloudTrail provides detailed logs of all API calls made in an AWS\naccount, which helps monitor, troubleshoot, and detect unusual activity, thereby improving\nsecurity and compliance. This supports the principle of 'activating traceability' by enabling\ncontinuous monitoring and auditing of all actions and changes within the AWS environment.\nB . Use serverless compute architectures: Incorrect, as this principle encourages the use of\nmanaged services that handle infrastructure, such as AWS Lambda, and is not directly related to\nCloudTrail.\nC . Perform operations as code: Incorrect, as this principle emphasizes the use of code and\nautomation for infrastructure management.\nD . Go global in minutes: Incorrect, as this principle relates to the global deployment of\napplications and services.\nAWS Cloud References:\nAWS Well-Architected Framework\nAWS CloudTrail"
+    },
+    {
+        "question_number": "6",
+        "question_type": null,
+        "question_text": null,
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": null,
+        "question_type": "MultipleChoice",
+        "question_text": "Which AWS Cloud benefit is shown by an architecture's ability to withstand failures with minimal\ndowntime?",
+        "options": [
+            "A- Agility",
+            "B- Elasticity",
+            "C- Scalability",
+            "D- High availability"
+        ],
+        "answer": "D",
+        "explanation": "Understanding High Availability: High availability (HA) refers to systems that are durable and\nlikely to operate continuously without failure for a long time. HA ensures that an architecture can\nwithstand failures with minimal downtime.\nImportance of High Availability:\nRedundancy: Systems are designed with redundancy to prevent single points of failure.\nFault Tolerance: Ensures that failures do not result in significant downtime, maintaining service\ncontinuity.\nAutomated Recovery: Utilizes automated recovery mechanisms to quickly restore services in the\nevent of a failure.\nAWS Services for High Availability:\nMulti-AZ Deployments: Services like RDS, DynamoDB, and others support Multi-AZ deployments\nfor fault tolerance.\nElastic Load Balancing: Distributes traffic across multiple instances or availability zones to ensure\nno single point of failure.\nAuto Scaling: Automatically adjusts the number of instances based on demand, ensuring\navailability even during traffic spikes.\nReferences:"
+    },
+    {
+        "question_number": "7",
+        "question_type": null,
+        "question_text": null,
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": null,
+        "question_type": "MultipleChoice",
+        "question_text": "Which AWS service or tool helps users visualize, understand, and manage spending and usage\nover time?",
+        "options": [
+            "A- AWS Organizations",
+            "B- AWS Pricing Calculator",
+            "C- AWS Cost Explorer",
+            "D- AWS Service Catalog"
+        ],
+        "answer": "C",
+        "explanation": "AWS Cost Explorer is the AWS service or tool that helps users visualize, understand, and manage\nspending and usage over time. AWS Cost Explorer is a web-based interface that allows users to\naccess interactive graphs and tables that display their AWS costs and usage data. Users can\ncreate custom reports that analyze cost and usage data by various dimensions, such as service,\nregion, account, tag, and more. Users can also view historical data for up to the last 12 months,\nforecast future costs for up to the next 12 months, and get recommendations for cost\noptimization. AWS Cost Explorer also provides preconfigured views that show common cost and\nusage scenarios, such as monthly spend by service, daily spend by linked account, and Reserved\nInstance utilization. Users can use AWS Cost Explorer to monitor their AWS spending and usage\ntrends, identify cost drivers and anomalies, and optimize their resource allocation and budget\nplanning.References:Cloud Cost Analysis - AWS Cost Explorer - AWS,Analyzing your costs with\nAWS Cost Explorer"
+    },
+    {
+        "question_number": null,
+        "question_type": null,
+        "question_text": null,
+        "options": [],
+        "answer": null,
+        "explanation": null
+    }
+]

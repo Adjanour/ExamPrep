@@ -1,0 +1,109 @@
+[
+    {
+        "question_number": null,
+        "question_type": null,
+        "question_text": null,
+        "options": [],
+        "answer": null,
+        "explanation": null
+    },
+    {
+        "question_number": "1",
+        "question_type": "MultipleChoice",
+        "question_text": "A company stores data in an Amazon S3 bucket.\nWhich task is the responsibility of AWS?",
+        "options": [
+            "A- Configure an S3 Lifecycle policy.",
+            "B- Activate S3 Versioning.",
+            "C- Configure S3 bucket policies.",
+            "D- Protect the infrastructure that supports S3 storage."
+        ],
+        "answer": "D",
+        "explanation": "According to the AWS Shared Responsibility Model, AWS is responsible for protecting the\ninfrastructure that runs all of the services offered in the AWS Cloud, including Amazon S3. This\ninfrastructure includes hardware, software, networking, and facilities that run AWS services.\nA . Configure an S3 Lifecycle policy: Incorrect, as configuring S3 Lifecycle policies to manage\nobject lifecycle (e.g., transitioning objects to different storage classes or deleting them after a\ncertain period) is the customer's responsibility.\nB . Activate S3 Versioning: Incorrect, as enabling S3 Versioning is a customer responsibility for\nmanaging data protection.\nC . Configure S3 bucket policies: Incorrect, as setting and managing S3 bucket policies to control\naccess is the customer's responsibility.\nAWS Cloud References:\nAWS Shared Responsibility Model\nAmazon S3"
+    },
+    {
+        "question_number": "2",
+        "question_type": "MultipleChoice",
+        "question_text": "Which Amazon S3 storage class is MOST cost-effective for unknown access patterns?",
+        "options": [
+            "A- S3 Standard",
+            "B- S3 Standard-Infrequent Access (S3 Standard-IA)",
+            "C- S3 One Zone-Infrequent Access (S3 One Zone-IA)",
+            "D- S3 Intelligent-Tiering"
+        ],
+        "answer": "D",
+        "explanation": "Understanding S3 Intelligent-Tiering: S3 Intelligent-Tiering is designed to optimize costs by\nautomatically moving data to the most cost-effective access tier based on changing access\npatterns. It is ideal for data with unknown or unpredictable access patterns.\nWhy S3 Intelligent-Tiering is Cost-Effective:\nAutomatic Tiering: Moves data between two access tiers (frequent and infrequent access) based\non changing access patterns, optimizing storage costs without performance impact.\nNo Retrieval Fees: Unlike other storage classes, there are no retrieval fees in Intelligent-Tiering,\nmaking it cost-effective for data with unpredictable access patterns.\nMonitoring and Automation: Automatically monitors access patterns and transitions data,\nreducing the need for manual intervention.\nWhen to Use S3 Intelligent-Tiering:\nUnpredictable Access Patterns: Ideal for datasets where the access frequency cannot be\ndetermined or changes frequently.\nCost Optimization: For organizations looking to minimize storage costs without sacrificing\nperformance or requiring manual intervention to move data between tiers.\nReferences:\nAmazon S3 Intelligent-Tiering"
+    },
+    {
+        "question_number": "3",
+        "question_type": "MultipleChoice",
+        "question_text": "A developer needs to maintain a development environment infrastructure and a production\nenvironment infrastructure in a repeatable fashion Which AWS service should the developer use\nto meet these requirements?",
+        "options": [
+            "A- AWS Ground Station",
+            "B- AWS Shield",
+            "C- AWS loT Device Defender",
+            "D- AWS CloudFormation"
+        ],
+        "answer": "D",
+        "explanation": "AWS CloudFormation is a service that allows developers to model and provision their AWS\ninfrastructure in a repeatable and declarative way, using code and templates. AWS\nCloudFormation enables developers to define the resources they need for their development and\nproduction environments, such as compute, storage, network, and application services, and\nautomate their creation and configuration.AWS CloudFormation also provides features such as\nchange sets, nested stacks, and rollback triggers to help developers manage and update their\ninfrastructure safely and efficiently12.References:\nAWS CloudFormation\nWhat is AWS CloudFormation?\nQuestion 4\nQuestion Type: MultipleChoice"
+    },
+    {
+        "question_number": null,
+        "question_type": null,
+        "question_text": null,
+        "options": [
+            "A- Amazon CloudFront",
+            "B- Availability Zone",
+            "C- VPC",
+            "D- AWS Outposts"
+        ],
+        "answer": "B",
+        "explanation": "Understanding Availability Zones (AZs): An Availability Zone is a distinct location within an AWS\nregion that is engineered to be isolated from failures in other AZs.\nCharacteristics of Availability Zones:\nData Centers: Each AZ consists of one or more discrete data centers with redundant power,\nnetworking, and connectivity.\nHigh Availability: AZs are designed for high availability, providing low-latency network\nconnections to other zones in the same region.\nFault Isolation: They provide fault isolation and are used to deploy applications and services to\nensure high availability and reliability.\nUse Cases for Availability Zones:\nMulti-AZ Deployments: For services like RDS, deploying in multiple AZs ensures fault tolerance.\nDisaster Recovery: Setting up resources in multiple AZs helps in quick recovery from failures.\nLoad Balancing: Distributing traffic across AZs using Elastic Load Balancing ensures optimal\nperformance and availability.\nReferences:\nAWS Global Infrastructure\nUnderstanding AWS Regions and Availability Zones"
+    },
+    {
+        "question_number": "5",
+        "question_type": "MultipleChoice",
+        "question_text": "Which AWS Cloud design principle is a company using when the company implements AWS\nCloudTrail?",
+        "options": [
+            "A- Activate traceability.",
+            "B- Use serverless compute architectures.",
+            "C- Perform operations as code.",
+            "D- Go global in minutes."
+        ],
+        "answer": "A",
+        "explanation": "By implementing AWS CloudTrail, a company is adhering to the AWS Cloud design principle of\nactivating traceability. AWS CloudTrail provides detailed logs of all API calls made in an AWS\naccount, which helps monitor, troubleshoot, and detect unusual activity, thereby improving\nsecurity and compliance. This supports the principle of 'activating traceability' by enabling\ncontinuous monitoring and auditing of all actions and changes within the AWS environment.\nB . Use serverless compute architectures: Incorrect, as this principle encourages the use of\nmanaged services that handle infrastructure, such as AWS Lambda, and is not directly related to\nCloudTrail.\nC . Perform operations as code: Incorrect, as this principle emphasizes the use of code and\nautomation for infrastructure management.\nD . Go global in minutes: Incorrect, as this principle relates to the global deployment of\napplications and services.\nAWS Cloud References:\nAWS Well-Architected Framework\nAWS CloudTrail"
+    },
+    {
+        "question_number": "6",
+        "question_type": "MultipleChoice",
+        "question_text": "Which AWS Cloud benefit is shown by an architecture's ability to withstand failures with minimal\ndowntime?",
+        "options": [
+            "A- Agility",
+            "B- Elasticity",
+            "C- Scalability",
+            "D- High availability"
+        ],
+        "answer": "D",
+        "explanation": "Understanding High Availability: High availability (HA) refers to systems that are durable and\nlikely to operate continuously without failure for a long time. HA ensures that an architecture can\nwithstand failures with minimal downtime.\nImportance of High Availability:\nRedundancy: Systems are designed with redundancy to prevent single points of failure.\nFault Tolerance: Ensures that failures do not result in significant downtime, maintaining service\ncontinuity.\nAutomated Recovery: Utilizes automated recovery mechanisms to quickly restore services in the\nevent of a failure.\nAWS Services for High Availability:\nMulti-AZ Deployments: Services like RDS, DynamoDB, and others support Multi-AZ deployments\nfor fault tolerance.\nElastic Load Balancing: Distributes traffic across multiple instances or availability zones to ensure\nno single point of failure.\nAuto Scaling: Automatically adjusts the number of instances based on demand, ensuring\navailability even during traffic spikes.\nReferences:"
+    },
+    {
+        "question_number": "7",
+        "question_type": "MultipleChoice",
+        "question_text": "Which AWS service or tool helps users visualize, understand, and manage spending and usage\nover time?",
+        "options": [
+            "A- AWS Organizations",
+            "B- AWS Pricing Calculator",
+            "C- AWS Cost Explorer",
+            "D- AWS Service Catalog"
+        ],
+        "answer": "C",
+        "explanation": "AWS Cost Explorer is the AWS service or tool that helps users visualize, understand, and manage\nspending and usage over time. AWS Cost Explorer is a web-based interface that allows users to\naccess interactive graphs and tables that display their AWS costs and usage data. Users can\ncreate custom reports that analyze cost and usage data by various dimensions, such as service,\nregion, account, tag, and more. Users can also view historical data for up to the last 12 months,\nforecast future costs for up to the next 12 months, and get recommendations for cost\noptimization. AWS Cost Explorer also provides preconfigured views that show common cost and\nusage scenarios, such as monthly spend by service, daily spend by linked account, and Reserved\nInstance utilization. Users can use AWS Cost Explorer to monitor their AWS spending and usage\ntrends, identify cost drivers and anomalies, and optimize their resource allocation and budget\nplanning.References:Cloud Cost Analysis - AWS Cost Explorer - AWS,Analyzing your costs with\nAWS Cost Explorer"
+    },
+    {
+        "question_number": null,
+        "question_type": null,
+        "question_text": null,
+        "options": [],
+        "answer": null,
+        "explanation": null
+    }
+]
